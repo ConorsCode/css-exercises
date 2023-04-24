@@ -22,11 +22,12 @@ ul{
   list-style: none;
   text-decoration: none;
 }
-.content{
- display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: center;
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .buttons{
   display: flex;
@@ -70,7 +71,7 @@ button {
   border: gray;
   border-radius: 24px;
   background: #eee;
-  padding: 15px;
+    padding: 8px 16px;
 }
 
 input {
